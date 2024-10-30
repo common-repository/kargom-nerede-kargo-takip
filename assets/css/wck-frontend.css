@@ -1,0 +1,814 @@
+.SlotLayout_c_layout__yh7fb {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 60px 32px;
+	box-sizing: border-box;
+}
+.SlotLayout_slot1__AKzDi {
+	padding-bottom: 32px;
+}
+
+.Heading_container__91kKJ {
+	display: flex;
+	justify-content: center;
+	color: #212121;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 36px;
+	text-align: center;
+	word-break: break-all;
+}
+
+.SlotLayout_c_layout__yh7fb h1,
+.SlotLayout_c_layout__yh7fb h2,
+.SlotLayout_c_layout__yh7fb h3,
+ .SlotLayout_c_layout__yh7fb h4,
+	.SlotLayout_c_layout__yh7fb h5,
+	 .SlotLayout_c_layout__yh7fb h6,
+	 .SlotLayout_c_layout__yh7fb p {
+	margin: 0;
+}
+.Track_container__X6cb5 {
+	display: flex;
+	justify-content: center;
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	padding: 32px;
+}
+
+.Track_container__X6cb5 .Track_order_number__NcgZD, .Track_container__X6cb5 .Track_track_number__6qhh3 {
+	width: 100%;
+	max-width: 400px;
+}
+.Track_container__X6cb5 .Track_order_number__NcgZD .Track_track_item__BWmlk, .Track_container__X6cb5 .Track_track_number__6qhh3 .Track_track_item__BWmlk {
+	margin-bottom: 16px;
+}
+.Polaris-Labelled--hidden {
+	width: 100%;
+}
+.Polaris-Connected {
+	--pc-connected-item: 10;
+	--pc-connected-primary: 20;
+	--pc-connected-focused: 30;
+	position: relative;
+	display: flex;
+}
+.Polaris-Connected__Item--primary {
+	flex: 1 1 auto;
+}
+.Polaris-Connected__Item {
+	position: relative;
+	flex: 0 0 auto;
+}
+.Polaris-TextField {
+	--pc-text-field-contents: 20;
+	--pc-text-field-backdrop: 10;
+	border: none;
+	text-transform: none;
+	letter-spacing: normal;
+	position: relative;
+	display: flex;
+	align-items: center;
+	color: var(--p-text);
+	cursor: text;
+}
+
+
+
+.Polaris-TextField__Backdrop {
+	position: relative;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	pointer-events: none;
+}
+
+.CustomButton{
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	word-break: break-all;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-size: 14px;
+	min-height: 34px;
+	background: rgba(87, 89, 89, 1);
+}
+.Polaris-Button {
+	--pc-button-spinner-size: 1.25rem;
+	--pc-button-segment: 10;
+	--pc-button-focused: 20;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	text-align: center;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+.Polaris-Button {
+	padding: 7px 60px;
+	min-height: 36px;
+	border-radius: 4px;
+}
+
+.Track_container__X6cb5 .Track_or_line__gWxiv {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 36px;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv .Track_line__odIMM {
+	width: 2px;
+	height: 100%;
+	background-color: #e0e0e0;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv .Track_or__HAOiA {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 40px;
+	min-height: 40px;
+	border-radius: 50%;
+	padding: 4px;
+	font-size: 12px;
+	color: #212121;
+	font-weight: 600;
+	border: 2px solid #e0e0e0;
+	word-break: break-all;
+}
+
+/** Style tag*/
+		.Polaris_Button_EMobile {
+			padding: 7px 60px !important;
+			min-height: 36px !important;
+			border-radius: 4px !important;
+		}
+
+		.Track_Container_Box_EMobile {
+			flex-direction: column !important;
+			padding: 32px 16px !important;
+		}
+
+		.Track_or_line_EMobile {
+			flex-direction: row !important;
+			margin: 20px 0 !important;
+		}
+
+		.Track_line_EMobile {
+			display: initial !important;
+			height: 2px !important;
+			width: 100% !important;
+		}
+
+		.Track_or_EMobile {
+			text-decoration: inherit !important;
+			box-sizing: content-box !important;
+		}
+
+	/** End of style tag **/
+
+	.track_no {
+	text-align: center;
+	color: #212121;
+	font-size: 20px;
+	line-height: 36px;
+}
+.SlotLayout_slot3__pDrqN {
+	margin: 20px 0;
+}
+.OrderStatus_container__z_C2n {
+	padding: 0 16px;
+	word-break: break-all;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_info__o2T_X {
+	margin: 0 0 30px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_info__o2T_X .OrderStatus_status_title__bT2BE {
+	color:rgb(32, 34, 35);
+	font-size: 36px;
+	text-align: center;
+	font-weight: 600;
+	line-height: 48px;
+	word-break: break-word;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_info__o2T_X .OrderStatus_status_time__sLxSa {
+	color:rgb(32, 34, 35);
+	font-size: 24px;
+	text-align: center;
+	line-height: 24px;
+	margin-top: 12px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP {
+	position: relative;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 120px;
+}
+
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_bar__hrwHk {
+	position: absolute;
+	width: 100%;
+	height: 8px;
+	background-color: #e0e0e0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_bar__hrwHk .OrderStatus_progress_active__T8Mun {
+	position: absolute;
+	height: 8px;
+}
+
+.OrderStatus_progress_active_1000__TOkWF.full{
+	width: 100%;
+}
+.OrderStatus_progress_active_1000__TOkWF.onethrid{
+	width: 75%;
+}
+.OrderStatus_progress_active_1000__TOkWF.onefourth{
+	width: 25%;
+}
+.OrderStatus_progress_active_1000__TOkWF.half{
+	width: 50%;
+}
+.OrderStatus_progress_active_1000__TOkWF.start{
+	width: 0;
+}
+
+.OrderStatus_progress_active_1000__TOkWF {
+
+	background-color: #f59342;
+	-webkit-animation: OrderStatus_progressMove_1000__IWv05 1s ease 0s 1 normal none running;
+	animation: OrderStatus_progressMove_1000__IWv05 1s ease 0s 1 normal none running;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 3px solid #e0e0e0;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a.reached{
+	border-color: #f59342;
+	background-color: #f59342;
+}
+
+.OrderStatus_left_0__9fLLX {
+	left: calc(0% - 10px);
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a .OrderStatus_status_icon__KAlyM {
+	position: absolute;
+	top: -48px;
+	left: 0;
+	width: 40px;
+	height: 40px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a .OrderStatus_status_icon__KAlyM svg {
+	width: 100%!important;
+	height: 100%!important;
+}
+
+.Icon_icon__cg4Wl {
+	fill: #e0e0e0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a .OrderStatus_status_info__id76W {
+	position: absolute;
+	top: 24px;
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	min-width: 120px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status__iAUKP .OrderStatus_progress_node__Snj5a .OrderStatus_status_info__id76W .OrderStatus_status_desc__KWLmy {
+	font-size: 16px;
+	font-weight: 600;
+	white-space: nowrap;
+	color: rgb(97, 97, 97);
+}
+.OrderStatus_left_25__HXOBg {
+	left: calc(25% - 10px);
+}
+.OrderStatus_left_50__Bk0m0 {
+	left: calc(50% - 10px);
+}
+.OrderStatus_left_75__HBN1i {
+	left: calc(75% - 10px);
+}
+.OrderStatus_left_100__OYU47 {
+	left: calc(100% - 10px);
+}
+
+.SlotLayout_track_container__fS8Jk {
+	position: relative;
+}
+.SlotLayout_slot4___Ww2O {
+	width: 100%;
+}
+.SlotLayout_slot5__mCTfs {
+	width: 100%;
+}
+.OrderDetail_container__gsERW {
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	word-break: break-all;
+	margin-bottom: 20px;
+}
+.OrderProducts_container__HMibE {
+	padding: 20px;
+	border-radius: 8px;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	color: #202223;
+}
+.OrderDetail_container__gsERW .OrderDetail_title__tN2Xt {
+	font-size: 20px;
+	color: rgb(32, 34, 35);
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.OrderDetail_container__gsERW .OrderDetail_info_item__zCQOn {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+.OrderDetail_container__gsERW .OrderDetail_info_item__zCQOn .OrderDetail_info_key__iJxdk {
+	color: #212121;
+	font-size: 14px;
+	max-width: 60%;
+}
+.OrderDetail_container__gsERW .OrderDetail_info_item__zCQOn .OrderDetail_info_content__8VCJO {
+	color: #616161;
+	font-size: 14px;
+	word-break: break-all;
+}
+
+.OrderProducts_container__HMibE .OrderProducts_head_title__aphhE {
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(32, 34, 35);
+	margin-bottom: 20px;
+}
+.OrderProducts_flex-box__3NO9a {
+	display: flex;
+}
+
+.OrderProducts_container__HMibE * {
+	margin: 0;
+	padding: 0;
+}
+.OrderProducts_container__HMibE .OrderProducts_img-box__IYBBa {
+	width: 64px;
+	height: 64px;
+	border: 1px solid #c9cccf;
+	margin-right: 8px;
+}
+
+.OrderProducts_container__HMibE .OrderProducts_product-info__RAQWl {
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	flex: auto;
+}
+.OrderProducts_container__HMibE .OrderProducts_img-box__IYBBa img {
+	min-width: 64px;
+	width: 100%;
+	height: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+.OrderProducts_container__HMibE .OrderProducts_product-info__RAQWl .OrderProducts_product-name__rJPpw {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 2;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	margin-bottom: 6px;
+	text-decoration: underline;
+}
+.OrderProducts_flex-box__3NO9a {
+	display: flex;
+	margin-bottom: 20px;
+}
+.OrderProducts_flex-box__3NO9a .OrderProducts_product-price__SWX_x {
+	flex: 4;
+}
+.OrderProducts_flex-box__3NO9a .OrderProducts_product-count__9kXfN {
+	flex: 1;
+	text-align: right;
+}
+
+.Translator_container__d4OQT {
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0;
+	border-bottom: 1px solid #e1e3e5;
+	margin-bottom: 16px;
+}
+.Translator_container__d4OQT .Translator_title__1IoXD {
+	color: #212121;
+	font-weight: 600;
+	font-size: 16px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo {
+	margin-bottom: 20px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH {
+	display: flex;
+	align-items: center;
+	margin-bottom: 0.5rem;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ {
+	position: relative;
+}
+.spr-carrier-38x38-13141 {
+	background-position: -684px -532px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_logo__ujUbN {
+	display: block;
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	border-radius: 2px;
+	border: 1px solid #e0e0e0;
+	box-sizing: border-box;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 12px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv .LogisticsTrack_provider_name__TjxEO {
+	font-size: 20px;
+	font-weight: 600;
+	white-space: nowrap;
+	color: #000;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv .LogisticsTrack_provider_country__vKNjv, .LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv .LogisticsTrack_provider_tel__1FwcO {
+	color: #212121;
+	font-size: 16px;
+	margin: 0 4px;
+	white-space: nowrap;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv .LogisticsTrack_sync__sUPKc {
+	display: flex;
+	align-items: center;
+	margin: 0 4px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_provider_info__HjyPH .LogisticsTrack_provider_content__C2QGv .LogisticsTrack_sync__sUPKc .LogisticsTrack_sync_time__RkdYn {
+	color: #9e9e9e;
+	font-size: 12px;
+	min-width: 100px;
+	white-space: nowrap;
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ .LogisticsTrack_event_item__pnVai {
+	display: flex;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ .LogisticsTrack_event_item__pnVai .LogisticsTrack_event_icon__0P46w {
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	z-index: 9;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ .LogisticsTrack_event_item__pnVai .LogisticsTrack_event_info__kgAs6 {
+	display: flex;
+	flex-direction: column;
+	padding: 16px;
+	background-color: #f6f6f7;
+	border-radius: 8px;
+	width: 100%;
+	margin-left: 12px;
+	word-break: break-all;
+}
+
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ .LogisticsTrack_event_item__pnVai .LogisticsTrack_event_info__kgAs6 .LogisticsTrack_event_time__oZKqO {
+	font-size: 16px;
+	line-height: 24px;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ .LogisticsTrack_event_item__pnVai .LogisticsTrack_event_icon__0P46w {
+	width: 40px;
+	min-width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	z-index: 9;
+}
+
+.LogisticsTrack_container__UI7K7
+.LogisticsTrack_provider__FcZwo
+.LogisticsTrack_event_list__c4_AQ
+.LogisticsTrack_event_item__pnVai
+.LogisticsTrack_event_icon__0P46w
+.LogisticsTrack_icon_border__hzOT2 {
+	width: 32px;
+	min-width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-sizing: border-box;
+	border: 6px solid rgba(0, 128, 96, 0.3);
+}
+.LogisticsTrack_container__UI7K7
+.LogisticsTrack_provider__FcZwo
+.LogisticsTrack_event_list__c4_AQ
+.LogisticsTrack_event_item__pnVai
+.LogisticsTrack_event_icon__0P46w
+.LogisticsTrack_icon_border__hzOT2
+.LogisticsTrack_icon_box__icHG6 {
+	width: 20px;
+	min-width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.LogisticsTrack_container__UI7K7
+.LogisticsTrack_provider__FcZwo
+.LogisticsTrack_event_list__c4_AQ
+.LogisticsTrack_event_item__pnVai
+.LogisticsTrack_triangle_icon__ujMra {
+	transform: rotate(45deg);
+	width: 40px;
+	min-width: 40px;
+	max-width: 40px;
+	display: flex!important;
+	justify-content: center;
+	align-items: center;
+}
+.LogisticsTrack_container__UI7K7
+.LogisticsTrack_provider__FcZwo
+.LogisticsTrack_event_list__c4_AQ
+.LogisticsTrack_event_item__pnVai
+.LogisticsTrack_triangle_icon__ujMra:after {
+	content: "";
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #868586;
+	background-color: #fff;
+}
+
+.Track_container__X6cb5 .Track_order_number__NcgZD .Track_track_item__BWmlk .Track_input_label__sd_Y8, .Track_container__X6cb5 .Track_track_number__6qhh3 .Track_track_item__BWmlk .Track_input_label__sd_Y8 {
+	font-size: 20px;
+	margin-bottom: 8px;
+	word-break: break-all;
+}
+.LogisticsTrack_container__UI7K7 .LogisticsTrack_provider__FcZwo .LogisticsTrack_event_list__c4_AQ:before {
+	position: absolute;
+	content: "";
+	width: 2px;
+	background-color: #eee;
+	top: 40px;
+	bottom: 40px;
+	left: 19px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE {
+	position: relative;
+	min-height: 360px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_bar_mobile__3Tf7A {
+	position: absolute;
+	top: 36px;
+	left: 6px;
+	width: 8px;
+	height: calc(100% - 72px);
+	background-color: #e0e0e0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_bar_mobile__3Tf7A .OrderStatus_progress_active_mobile__9A191 {
+	position: absolute;
+	width: 8px;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn {
+	background-color: #f59342 !important;
+	-webkit-animation: OrderStatus_progressMoveMobile_1000__0AcWt 1s ease 0s 1 normal none running;
+	animation: OrderStatus_progressMoveMobile_1000__0AcWt 1s ease 0s 1 normal none running;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn.full{
+	height: 100%;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn.onethrid{
+	height: 75%;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn.onefourth{
+	height: 25%;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn.half{
+	height: 50%;
+}
+.OrderStatus_progress_active_mobile_1000__PUVEn.start{
+	height: 0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_mobile__LB7sP {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 16px 0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_mobile__LB7sP .OrderStatus_progress_node_mobile__eNl15 {
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	border: 2px solid #e0e0e0;
+	background-color: #fff;
+	z-index: 9;
+}
+.OrderStatus_progress_node_mobile__eNl15.reached{
+	border-color: #f59342 !important;
+	background-color: #f59342 !important;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_mobile__LB7sP .OrderStatus_status_icon_mobile__cLUCI {
+	width: 40px;
+	height: 40px;
+	margin: 0 12px;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_mobile__LB7sP .OrderStatus_status_info_mobile__7XrtY {
+	display: flex;
+	flex-direction: column;
+}
+.SlotLayout_c_layout__yh7fb h1, .SlotLayout_c_layout__yh7fb h2, .SlotLayout_c_layout__yh7fb h3, .SlotLayout_c_layout__yh7fb h4, .SlotLayout_c_layout__yh7fb h5, .SlotLayout_c_layout__yh7fb h6, .SlotLayout_c_layout__yh7fb p {
+	margin: 0;
+}
+.OrderStatus_container__z_C2n .OrderStatus_track_status_mobile__BSOmE .OrderStatus_progress_mobile__LB7sP .OrderStatus_status_info_mobile__7XrtY .OrderStatus_status_desc_mobile__1YR_O {
+	font-size: 16px;
+	color: #616161;
+	font-weight: 600;
+}
+
+.Heading_container__91kKJ{
+	color: rgb(32, 34, 35); font-size: 40px; line-height: 46px; font-weight: 600;
+}
+.Polaris-Connected__Item--primary {
+	z-index: 20;
+	flex: 1 1 auto;
+}
+.Polaris-TextField__Input {
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 1.5rem;
+	border: none;
+	text-transform: none;
+	letter-spacing: normal;
+	position: relative;
+	z-index: 20;
+	display: block;
+	flex: 1 1;
+	width: 100%;
+	min-width: 0;
+	min-height: 2.25rem;
+	margin: 0;
+	background: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+.Polaris-TextField__Input {
+	padding: 5px 12px;
+	height: 36px;
+	font-size: 14px;
+	border: 1px solid #ccc !important;
+	background-color: transparent !important;
+}
+.CustomButton{
+z-index: 9999;
+background-color: #f59342;
+box-shadow: inset 0 1px 0 rgb(0 0 0 / 15%);
+color: #ffffff;
+border-color: rgba(87, 89, 89, 1);
+cursor: pointer;
+word-break: break-all;
+padding-bottom: 0px;
+padding-top: 0px;
+font-size: 14px;
+min-height: 34px;
+}
+@media screen and (min-width: 1200px){
+
+
+	.SlotLayout_c_layout__yh7fb {
+		width: 100%;
+		max-width: 1200px;
+		padding: 60px 32px;
+	}
+	.SlotLayout_slot4___Ww2O {
+	width: 780px;
+}
+}
+
+@media screen and (min-width: 992px){
+	.SlotLayout_c_layout__yh7fb {
+		width: 100%;
+		padding: 60px 32px;
+	}
+	.SlotLayout_track_container__fS8Jk {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.SlotLayout_slot4___Ww2O {
+	width: 64.73%;
+}
+.SlotLayout_slot5__mCTfs {
+	width: 336px;
+}
+}
+@media screen and (min-width: 768px){
+	.OrderStatus_track_status_mobile {
+	display: none;
+}
+.OrderStatus_track_status {
+	display: block;
+}
+}
+@media screen and (max-width: 768px){
+	.Track_container__X6cb5 {
+	flex-direction: column;
+	padding: 32px 16px;
+}
+	.Track_Container_Box {
+		margin-bottom: 32px;
+	}
+	.Track_container__X6cb5 .Track_order_number__NcgZD, .Track_container__X6cb5 .Track_track_number__6qhh3 {
+	padding: 0 50px;
+	max-width: 100%;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv {
+	flex-direction: row;
+	margin: 20px 0;
+}
+
+.OrderStatus_track_status_mobile {
+	display: block;
+}
+.OrderStatus_track_status {
+	display: none !important;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv {
+	flex-direction: row;
+	margin: 20px 0;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv .Track_line__odIMM {
+	height: 2px;
+	width: 100%;
+}
+.Track_or {
+	width: 50%;
+}
+.Track_container__X6cb5 .Track_or_line__gWxiv .Track_line__odIMM {
+	height: 2px;
+	width: 100%;
+}
+.Polaris-Button {
+	width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 479px){
+	.SlotLayout_c_layout__yh7fb {
+	width: 100%;
+	padding: 32px 16px;
+}
+.Track_container__X6cb5 .Track_order_number__NcgZD, .Track_container__X6cb5 .Track_track_number__6qhh3 {
+	padding: 0;
+	max-width: 100%;
+}
+}
+
+@media screen and (min-width: 480px){
+	.SlotLayout_c_layout__yh7fb {
+		width: 100%;
+		padding: 32px 16px;
+	}
+
+
+}
